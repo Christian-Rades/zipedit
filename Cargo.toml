@@ -1,0 +1,16 @@
+[package]
+name = "zipedit"
+version = "0.1.0"
+authors = ["Christian-Rades <christian.rades@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+zip = "0.5.5"
+color-eyre = "0.5.6"
+argh = "0.1.4"
+
+
+[profile.dev.package.backtrace]
+opt-level = 3
